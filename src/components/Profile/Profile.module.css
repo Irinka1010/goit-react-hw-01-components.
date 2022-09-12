@@ -1,62 +1,63 @@
-.profile{
-padding: 40px;
-width: 250px;
-margin-left: auto;
-margin-right: auto;
-background: rgb(0, 255, 247);
-box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
-border-radius: 0px 0px 4px 4px;
+.profile {
+  padding: 40px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(0, 255, 247);
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
 }
-.description{
- padding: 35px 45px;
- background-color: #FFFF;
-box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
-text-align: center;
+.description {
+  padding: 35px 45px;
+  background-color: #ffff;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  text-align: center;
 }
-.avatar{
- display: block;
- margin-left: auto;
- margin-right: auto;  
-border-radius: 50%;
-width: 100px;
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 100px;
+}
+.name {
+  font-size: large;
+  font-weight: bold;
+}
+.tag {
+  margin-top: 0;
+}
+.location {
+  margin: 0;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+li {
+  font-size: 14px;
+  width: 33%;
+  background-color: #f2f7f7;
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+.label {
+  display: block;
+  text-align: center;
+  margin: 10px;
 
-
+  color: #bbc4c4;
 }
-.name{
- font-size: large;
- font-weight: bold;
-}
-.tag{
- margin-top: 0;
-}
-.location{
-margin: 0;
-}
-.stats{
-display: flex;
-justify-content: space-between;
-list-style: none;
-margin: 0;
-padding: 0;
-box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
- 
-}
-li{
-font-size: 14px;
-width: 33%;
-background-color: #f2f7f7;
-box-shadow: 1px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
-}
-.label{
-display: block;
-text-align: center;
-margin: 10px;
-
-color: #bbc4c4;
-}
-.quantity{
-display: block;
-text-align: center;
-font-weight: bold;
-margin: 5px;
+.quantity {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
 }

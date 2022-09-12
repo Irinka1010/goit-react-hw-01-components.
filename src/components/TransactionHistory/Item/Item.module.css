@@ -1,16 +1,16 @@
 .tableRow {
-    height: 40px;
+  height: 40px;
 }
 
 .tableRow:nth-child(odd) {
-    color: rgb(73, 75, 72);
+  color: rgb(73, 75, 72);
 }
 
 .tableRow:nth-child(even) {
-    background-color: rgba(157, 159, 155, 0.428);
-    color: rgb(30, 29, 29);
+  background-color: rgba(157, 159, 155, 0.428);
+  color: rgb(30, 29, 29);
 }
-.tableData{
-    border: 1px solid #ccc;
-    padding: 5px;
+.tableData {
+  border: 1px solid #ccc;
+  padding: 5px;
 }
