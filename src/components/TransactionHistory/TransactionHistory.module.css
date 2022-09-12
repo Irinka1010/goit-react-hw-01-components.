@@ -1,18 +1,15 @@
 .transactionHistory {
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-
-  text-align: center;
-  border: 1px rgb(242, 196, 196);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    background-color: rgb(0, 255, 247);
+    width: 1030px;
+    padding: 15px;
+    margin: 30px auto;
 }
 .tableHeader {
-  background-color: aqua;
-  font-size: larger;
-  border-radius: 4%;
-}
-.tableBody {
-  background-color: beige;
-  font-size: smaller;
-  padding: 5px;
+  background-color: #ccc;
+  height: 40px;
+  color: brown;
+  font-weight: 400;
+  font-size: 20px;
 }

@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
+import css from './Item.module.css';
 export const Item = ({type,amount,currency}) => {
     return (
-    <tr>
-        <td>{type}</td>
-        <td>{amount}</td>
-        <td>{currency}</td>
+    <tr className={css.tableRow}>
+        <td className={css.tableData}>{type}</td>
+        <td className={css.tableData}>{amount}</td>
+        <td className={css.tableData}>{currency}</td>
     </tr>
     )
 }

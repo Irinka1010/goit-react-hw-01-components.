@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
-import { Event } from 'components/Statistics/Event/Event' 
+import { StatisEvent } from 'components/Statistics/StatisEvent/StatisEvent' 
 import css from './Statistics.module.css'
 export const Statistics = ({ title, stats }) => {
     return (
     <section className={css.statistics}>
-            {title && <h2 className={css.title}>Upload stats</h2>}
+            {title && <h2 className={css.title}>{title}</h2>}
         <ul className={css.statList}>
             {stats.map(({id,label,percentage}) => (
-                <Event key={id}  label={label}
+                <StatisEvent key={id}  label={label}
             percentage={percentage}/>                              
             ))}   
            
@@ -17,7 +17,8 @@ export const Statistics = ({ title, stats }) => {
 }
 Statistics.propTypes = {
     title: PropTypes.string,
-    stats: PropTypes.arrayOf(PropTypes.shape({
+    stats: PropTypes.arrayOf(PropTypes.exact({
+        id:PropTypes.string.isRequired,
         label: PropTypes.string.isRequired,
         percentage: PropTypes.number.isRequired,
     })),

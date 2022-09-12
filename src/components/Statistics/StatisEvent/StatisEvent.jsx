@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
-import css from './Event.module.css'
+import css from './StatisEvent.module.css'
 
-export const Event = ({label,percentage}) => {
+export const StatisEvent = ({label,percentage}) => {
+  
     return ( 
     <li className={css.item}>
       <span className={css.label}>{label}</span>
@@ -10,7 +11,7 @@ export const Event = ({label,percentage}) => {
 
     )
 }
-Event.propTypes = {
+StatisEvent.propTypes = {
   label: PropTypes.string.isRequired,
   percentage: PropTypes.number.isRequired,
 }

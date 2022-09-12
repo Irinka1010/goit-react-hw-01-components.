@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
-import css from './Profile.module.css'
+import css from './Profile.module.css';
 
 export const Profile = (props) => {
     const { avatar, username, tag, location, stats:{followers,views,likes} } =props
-    
     return (
         <div className={css.profile}>
             <div className={css.description}>
